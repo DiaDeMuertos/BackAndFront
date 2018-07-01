@@ -1,0 +1,12 @@
+extends: airbnb-base
+plugins:
+  - import
+rules:
+  no-underscore-dangle: off
+  no-undef: off
+  no-console: off
+  arrow-parens: off
+  consistent-return: off
+env:
+  es6: true
+  node: true
